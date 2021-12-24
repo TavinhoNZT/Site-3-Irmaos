@@ -1,0 +1,39 @@
+
+.main-bg {
+    background-image: url('../img/main-bg.svg');
+    background-size: cover;
+    background-position: center, center;
+    color: var(--white-color);
+
+}
+
+.img-posto {
+    background-image: url('https://www.shell.com.br/motoristas/sobre-os-postos-shell/_jcr_content/pagePromo/image.img.960.jpeg/1513372942486/car-parked-at-shell-gas-station.jpeg');
+    background-size: cover;
+    background-position: center, center;
+}
+
+.white-bg {
+    background: var(--white-color);
+    color: var(--primary-color);
+}
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 8rem var(--gap);
+   
+}
+
+.section {
+    min-height: 100vh;
+}
+
+.menu-spacing {
+    height: 6.5rem;
+}
+
+body .full-width {
+    width: 100%;
+    flex: 1 1 100%;
+}

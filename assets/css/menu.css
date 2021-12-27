@@ -2,11 +2,11 @@
     position: fixed;
     top: 0;
     left: 0;
-    height: 0;
+    height: 7.5rem;
     width: 100%;
     z-index: 1;
     border-bottom: 0.1rem solid var(--light-gray-color);
-
+    
 }
 
 .menu-content {
@@ -14,13 +14,13 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 0rem;
 
 } 
 
 .menu h1 {
     font-size: 2.3rem;
-    color: var(--primary-color);
+    color: var(--withe-color);
 }
 
 .menu h1 a {
@@ -35,8 +35,8 @@
 
 .menu ul li a {
     display: block;
-    padding: 2rem;
-    font-size: 1.8rem;
+    padding: 1rem;
+    font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
     color: var(--primary-color);
     position: relative;

@@ -19,15 +19,19 @@
 
 </head>
 
-<body class="main-bg">
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+
     <aside class="menu white-bg">
         <div class="main-content menu-content">
-            <h1>
+            <h1 onclick="getElementById('close-menu').checked = false;">
                 <a href="#"><img src=assets/img/logo-3irmaos.png alt="3irmaos" width=100 height=100></a>
             </h1>
 
             <nav>
-                <ul>
+                <ul onclick="getElementById('close-menu').checked = false;">
                     <li><a href="#intro">HOME</a></li>
                     <li><a href="#quemsomos">QUEM SOMOS</a></li>
                     <li><a href="#parceiros">PARCEIROS</a></li>
@@ -254,6 +258,16 @@
 
             </div>
     </section>
+
+    <footer id="footer" class="footer white-bg">
+        <p><a rel="nofollow" target="_blank" href="https://beacons.ai/tavinhonzt">© 2021 Rede 3 Irmãos | Todos os
+                direitos reservados. | Desenvolvido por: Otavio Luiz</a>
+
+        </p>
+
+    </footer>
+
+    <a class="back-to-top" href="#">➤</a>
 
 
 
